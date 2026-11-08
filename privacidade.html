@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Palacio Sync · Privacidade</title>
+<style>
+  :root { --fundo:#0f0d16; --texto:#e4e1ee; --apagado:#a29db5; --lilas:#a78bfa; }
+  body { margin:0; background:var(--fundo); color:var(--texto); font:17px/1.65 "Segoe UI",system-ui,sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:56px 20px; }
+  h1 { font-weight:500; font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-weight:500; font-size:1.15rem; margin:28px 0 4px; color:var(--lilas); }
+  p, li { color:var(--apagado); }
+  a { color:var(--lilas); }
+  .en { margin-top:40px; padding-top:20px; border-top:1px solid #2a2638; font-size:.92em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidade</h1>
+  <p>Palacio Sync · atualizada em 8 de novembro de 2026</p>
+
+  <h2>O que o app acessa</h2>
+  <p>Somente a pasta que o próprio Palacio Sync cria no Google Drive de quem fez login, e os arquivos dentro dela (permissão <code>https://www.googleapis.com/auth/drive.file</code>). Nenhum outro arquivo do Drive é lido, listado ou alterado.</p>
+
+  <h2>Para que usa</h2>
+  <p>Para copiar as notas do cofre do Obsidian entre os aparelhos do próprio usuário: enviar o que mudou num aparelho e trazer o que mudou nos outros.</p>
+
+  <h2>Onde os dados ficam</h2>
+  <p>As notas ficam no Google Drive do usuário e nos aparelhos dele. O acesso ao Drive (o token do Google) fica guardado só no aparelho, fora das notas. O app não tem servidor próprio, não coleta estatísticas e não compartilha nada com ninguém.</p>
+
+  <h2>Como revogar</h2>
+  <p>A qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> → Palacio Sync → Remover acesso. A pasta no Drive continua sendo do usuário e pode ser apagada por ele quando quiser.</p>
+
+  <h2>Contato</h2>
+  <p>Abra uma conversa em <a href="https://github.com/guilhermeeagustto277-gif/palacio-sync/issues">github.com/guilhermeeagustto277-gif/palacio-sync/issues</a>.</p>
+
+  <div class="en">
+    <p><strong>English.</strong> Palacio Sync only accesses the folder it creates in the signed-in user's Google Drive (<code>drive.file</code> scope), solely to sync the user's own Obsidian notes between the user's own devices. The Google access token is stored only on the device. There is no server, no analytics and no sharing with third parties. Access can be revoked at any time at myaccount.google.com/permissions. Contact: https://github.com/guilhermeeagustto277-gif/palacio-sync/issues.</p>
+  </div>
+  <p><a href="./">← Palacio Sync</a></p>
+</main>
+</body>
+</html>
